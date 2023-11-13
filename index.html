@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rodízio SP</title>
+</head>
+<body>
+    <h1>Verificador de Rodízio SP</h1>
+    <label for="finalPlaca">Final da Placa:</label>
+    <input type="text" id="finalPlaca" placeholder="Digite o final da placa">
+
+    <label for="diaSemana">Dia da Semana:</label>
+    <select id="diaSemana">
+        <option value="segunda">Segunda-feira</option>
+        <option value="terca">Terça-feira</option>
+        <option value="quarta">Quarta-feira</option>
+        <option value="quinta">Quinta-feira</option>
+        <option value="sexta">Sexta-feira</option>
+        <option value="sabado">Sábado</option>
+        <option value="domingo">Domingo</option>
+    </select>
+
+    <label for="areaRodizio">Área de Rodízio:</label>
+    <input type="checkbox" id="areaRodizio"> Circula na área de Rodízio
+
+    <button onclick="verificarRodizio()">Verificar</button>
+
+    <div id="result"></div>
+
+    <img heigh="500" width="500" src="emerson.png">
+    <script src="main.js"></script>
+</body>
+</html>
